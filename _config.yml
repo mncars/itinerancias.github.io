@@ -1,0 +1,9 @@
+# Site settings
+title: Itinerancias
+email: david.gil@biko2.com
+baseurl: ""
+#url: "http://www.impact-accelerator.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

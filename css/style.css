@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font: 400 14px/18px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+header {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  overflow: hidden;
+  display: block;
+  z-index: 1;
+}
+
+h1 {
+  text-indent: -9999px;
+  background: url("../imgs/logo.png") 0 0 no-repeat;
+  width: 130px;
+  height: 65px;
+  margin: 0;
+}
+
+h2 {
+  font:400 20px/20px 'PFDinTextPro-Bold', sans-serif;
+  margin: 0 0 5px 0;
+  border-bottom: 3px solid #333333;
+}
+
+h3 {
+  font: 400 18px/18px 'PFDinTextPro-Bold', sans-serif;
+  margin: 15px 0 0 0;
+}
+
+a {
+  color: #9a7f4a;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#665431;
+  text-decoration: underline;
+}
+
+.exposicionThumbnail {
+  padding: 10px;
+}
+
+.fecha-lugar {
+  margin-bottom: 5px;
+  font: 400 18px/18px 'PFDinTextPro-Thin',sans-serif;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.img-responsive {
+  max-width: 100%;
+}
+
+.itinerancia{
+  margin-top: 5px;
+}
+
+#cerrar {
+  color: #000;
+  float:right;
+  padding-right: 10px;
+  line-height: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* estilos temporales */
+#start {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+  font-size: 20px
+}

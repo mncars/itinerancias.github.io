@@ -1,0 +1,81 @@
+exposiciones = [
+  {
+    "titulo": "Nacho Criado",
+    "fechas": "5 mayo – 1 octubre, 2012",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Palacio de Velázquez, Retiro",
+    "comisario": "Remo Guidieri",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Centro Andaluz de Arte Contemporáneo, Sevilla",
+        "fechas": "4 diciembre, 2012 - 21 abril, 2013",
+        "url": "http://www.juntadeandalucia.es/cultura/caac/programa/criado12/frame.htm",
+        "lat": 37.398719,
+        "lng": -6.008864
+      }
+    ]
+  },
+  {
+    "titulo": "María Blanchard",
+    "fechas": "17 octubre, 2012 – 25 febrero, 2013",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/maria-blanchard-1.jpg?itok=npxFjURy",
+    "lugar": "Edificio Sabatini. 3ª Planta (Zonas B, C, D1)",
+    "comisario": "María José Salazar",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía y Fundación Marcelino Botín",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Fundación Botín, Santander",
+        "fechas": "23 junio – 16 septiembre, 2012",
+        "url": "http://www.fundacionbotin.org/exposicion-maria-blanchard-cubista_fundacion-botin-sala-de-prensa_arte-y-cultura-795820259025686.htm",
+        "lat": 43.462778,
+        "lng": -3.803670
+      }
+    ]
+  },
+  {
+    "titulo": "Perder la forma humana. Una imagen sísmica de los años ochenta en América Latina",
+    "fechas": "26 octubre, 2012 – 11 marzo, 2013",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/imagen-perder-forma-humana-2.jpg?itok=zrbG2xnD",
+    "lugar": "Edificio Sabatini, Planta 3",
+    "comisario": "Red Conceptualismos del Sur",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía y Agencia Española de Cooperación Internacional y Desarrollo (AECID)",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Museo de Arte de Lima, MALI",
+        "fechas": "23 noviembre, 2013 – 23 febrero, 2014",
+        "url": "http://www.mali.pe/expo_detalle.php?id=117&p=new&anio=2013",
+        "lat": -12.060014,
+        "lng": -77.036957
+      },
+      {
+        "lugar": "Museo de la Universidad Nacional de Tres de Febrero, Buenos Aires",
+        "fechas": "20 mayo, 2014 – 17 agosto, 2014",
+        "url": "http://untref.edu.ar/muntref/muestras/perder-la-forma-humana/",
+        "lat": -34.601327,
+        "lng": -58.528171
+      }
+    ]
+  },
+  {
+    "titulo": "Heimo Zobernig",
+    "fechas": "9 noviembre, 2012 – 15 abril, 2013",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/zobernig.jpg?itok=LONuXQGJ",
+    "lugar": "Palacio de Velázquez, Parque del Retiro",
+    "comisario": "Jürgen Bock",
+    "organizacion" : "MNCARS y Kunsthaus Graz",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Kunsthaus Graz",
+        "fechas": "7 junio – 1 enero, 2013",
+        "url": "http://www.museum-joanneum.at/de/kunsthaus/ausstellungen_3/heimo-zobernig-3",
+        "lat": 47.071614,
+        "lng": 15.434085
+      }
+    ]
+  },
+];
