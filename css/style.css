@@ -85,9 +85,21 @@ a:hover {
 }
 
 /* estilos temporales */
-#start {
+#expo2011 {
   position: absolute;
   left: 30px;
+  bottom: 30px;
+  font-size: 20px
+}
+#expo2012 {
+  position: absolute;
+  left: 130px;
+  bottom: 30px;
+  font-size: 20px
+}
+#expoTodas {
+  position: absolute;
+  left: 230px;
   bottom: 30px;
   font-size: 20px
 }

@@ -1,6 +1,164 @@
 exposiciones = [
   {
+    "titulo": "Yayoi Kusama",
+    "anio": 2011,
+    "fechas": "11 mayo – 12 septiembre, 2011",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Edificio Sabatini, Planta 1",
+    "organizacion" : "Tate Modern y Museo Nacional Centro de Arte Reina Sofía",
+    "comisario": "Frances Morris",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Centre Pompidou, París",
+        "fechas": "10 octubre, 2011 – 9 enero, 2012",
+        "url": "http://www.centrepompidou.fr/cpv/ressource.action?param.id=FR_R-8749cada9f97bd4946b71241be75e5&param.idSource=FR_E-54a28a262b816a4dcaa49365dbd464",
+        "lat": 48.860854,
+        "lng": 2.352261
+      },
+      {
+        "lugar": "Tate Modern, Londres",
+        "fechas": "9 febrero – 5 junio, 2012",
+        "url": "http://www.tate.org.uk/whats-on/tate-modern/exhibition/yayoi-kusama",
+        "lat": 51.507789,
+        "lng": -0.099329
+      }
+      ,
+      {
+        "lugar": "Whitney Museum, Nueva York",
+        "fechas": "12 julio – 30 septiembre, 2012",
+        "url": "http://whitney.org/Exhibitions/YayoiKusama",
+        "lat": 40.773746,
+        "lng": -73.963962
+      }
+    ]
+  },
+  {
+    "titulo": "Lygia Pape. Espacio imantado",
+    "anio": 2011,
+    "fechas": "24 mayo – 3 octubre, 2011",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Edificio Sabatini, Planta 4",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía en colaboración con el Projeto Lygia Pape",
+    "comisario": "Manuel J. Borja-Villel y Teresa Velázquez",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Serpentine Gallery, Londres",
+        "fechas": "7 diciembre, 2011 – 19 febrero, 2012",
+        "url": "http://www.serpentinegalleries.org/exhibitions-events/lygia-pape-magnetized-space",
+        "lat": 51.504941,
+        "lng": -0.175024
+      },
+      {
+        "lugar": "Pinacoteca do Estado de São Paulo, São Paulo ",
+        "fechas": "17 marzo – 13 mayo, 2012",
+        "url": "http://www.museoreinasofia.es/exposiciones/lygia-pape-espacio-imantado",
+        "lat": -23.533962,
+        "lng": -46.633898
+      }
+    ]
+  },
+  {
+    "titulo": "Alighiero Boetti. Estrategia de juego",
+    "anio": 2011,
+    "fechas": "5 octubre, 2011 – 5 febrero, 2012",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Edificio Sabatini, Planta 3",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía en coproducción con Tate Modern, Londres y The Museum of Modern Art, Nueva York",
+    "comisario": "Lynne Cooke, Mark Godfrey y Christian Rattemeyer",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Tate Modern, Londres",
+        "fechas": "28 febrero – 27 mayo, 2012",
+        "url": "http://www.tate.org.uk/whats-on/tate-modern/exhibition/alighiero-boetti-game-plan",
+        "lat": 51.507789,
+        "lng": -0.099329
+      },
+      {
+        "lugar": "The Museum of Modern Art, Nueva York",
+        "fechas": "1 julio – 1 octubre, 2012",
+        "url": "http://www.moma.org/visit/calendar/exhibitions/1238",
+        "lat": 40.761709,
+        "lng": -73.977606
+      }
+    ]
+  },
+  {
+    "titulo": "René Daniëls. Una exposición es siempre parte de un todo mayor",
+    "anio": 2011,
+    "fechas": "20 octubre, 2011 – 26 marzo, 2012",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Palacio de Velázquez, Parque del Retiro, Madrid",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía y Van Abbemuseum, Eindhoven",
+    "comisario": "Ronald Groenenboom",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Van Abbemuseum, Eindhoven",
+        "fechas": "12 mayo – 23 septiembre, 2012",
+        "url": "http://vanabbemuseum.nl/programme/detail/?tx_vabdisplay_pi1%5Bptype%5D=18&tx_vabdisplay_pi1%5Bproject%5D=927",
+        "lat": 51.434717,
+        "lng": 5.481998
+      }
+    ]
+  },
+  {
+    "titulo": "Locus Solus. Impresiones de Raymond Roussel",
+    "anio": 2011,
+    "fechas": "25 octubre, 2011 – 27 febrero, 2012",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Edificio Sabatini, Planta 1",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía en coproducción con el Museu de Arte Contemporânea de Serralves, Oporto",
+    "comisario": "Manuel J. Borja-Villel, João Fernandes y François Piron",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Museu de Arte Contemporânea de Serralves, Oporto",
+        "fechas": "24 marzo – 1 julio, 2012",
+        "url": "http://www.serralves.pt/pt/actividades/locus-solus-impressoes-de-raymond-roussel/",
+        "lat": 41.159811,
+        "lng": -8.659652
+      }
+    ]
+  },
+  {
+    "titulo": "Muntadas. Entre/Between",
+    "anio": 2011,
+    "fechas": "22 noviembre, 2011 – 25 marzo, 2012",
+    "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
+    "lugar": "Edificio Sabatini, Planta 4",
+    "organizacion" : "Museo Nacional Centro de Arte Reina Sofía",
+    "comisario": "Daina Augaitis",
+    "url": "http://www.museoreinasofia.es",
+    "itinerancia": [
+      {
+        "lugar": "Fundação Gulbenkian, Lisboa",
+        "fechas": "1 junio – 2 septiembre, 2012",
+        "url": "http://www.cam.gulbenkian.pt/index.php?article=71449&visual=2",
+        "lat": 38.737785,
+        "lng": -9.154559
+      },
+      {
+        "lugar": "Galerie Nationale du Jeu de Paume, París",
+        "fechas": "16 octubre, 2012 - 20 enero, 2013",
+        "url": "http://www.jeudepaume.org/index.php?page=article&idArt=1632",
+        "lat": 48.866039,
+        "lng": 2.324050
+      },
+      {
+        "lugar": "Vancouver Art Gallery",
+        "fechas": "9 noviembre, 2013 - 10 febrero, 2014",
+        "url": "http://www.vanartgallery.bc.ca/the_exhibitions/exhibit_muntadas.html",
+        "lat": 49.283164,
+        "lng": -123.120467
+      }
+    ]
+  },
+  {
     "titulo": "Nacho Criado",
+    "anio": 2012,
     "fechas": "5 mayo – 1 octubre, 2012",
     "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/nacho-criado-peq.jpg?itok=dVsQTK1E",
     "lugar": "Palacio de Velázquez, Retiro",
@@ -19,6 +177,7 @@ exposiciones = [
   },
   {
     "titulo": "María Blanchard",
+    "anio": 2012,
     "fechas": "17 octubre, 2012 – 25 febrero, 2013",
     "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/maria-blanchard-1.jpg?itok=npxFjURy",
     "lugar": "Edificio Sabatini. 3ª Planta (Zonas B, C, D1)",
@@ -37,6 +196,7 @@ exposiciones = [
   },
   {
     "titulo": "Perder la forma humana. Una imagen sísmica de los años ochenta en América Latina",
+    "anio": 2012,
     "fechas": "26 octubre, 2012 – 11 marzo, 2013",
     "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/imagen-perder-forma-humana-2.jpg?itok=zrbG2xnD",
     "lugar": "Edificio Sabatini, Planta 3",
@@ -62,6 +222,7 @@ exposiciones = [
   },
   {
     "titulo": "Heimo Zobernig",
+    "anio": 2012,
     "fechas": "9 noviembre, 2012 – 15 abril, 2013",
     "imagen": "http://www.museoreinasofia.es/sites/default/files/styles/banner_grid_4x3/public/exposiciones/zobernig.jpg?itok=LONuXQGJ",
     "lugar": "Palacio de Velázquez, Parque del Retiro",
@@ -79,3 +240,4 @@ exposiciones = [
     ]
   },
 ];
+

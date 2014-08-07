@@ -10,45 +10,67 @@
       maxZoom : 15
   };
 
-  var colors = ['#DE432A', '#38A2F2', '#27BE89', '#F352A5' , '#FFDB2D'];
-
   var snapper = new Snap({
     element: document.getElementById('content'),
     touchToDrag: false,
   });
 
-  var map = L.map('map', {minZoom: config.minZoom, maxZoom: config.maxZoom, zoomControl: false});
+  var exposicionesLayers = L.layerGroup();
+
+  var map = L.map('map', {
+    minZoom: config.minZoom,
+    maxZoom: config.maxZoom,
+    zoomControl: false,
+    snapper: snapper,
+    exposicionesLayers: exposicionesLayers,
+    initZoom: config.initZoom
+  });
   new L.Control.Zoom({ position: 'topright' }).addTo(map);
   map.addLayer(new L.TileLayer(config.tileUrl, {attribution: config.tileAttrib}));
   map.setView(config.mapCenter, config.initZoom);
 
-  var exposicionesLayers = [];
-  for (var i=0; i < exposiciones.length; ++i ) {
-    var exposicion = L.createExposicionLayer(exposiciones[i],
-      {
-        initLatLng: config.initLatLng,
-        iconUrl: 'imgs/pin'+i+'.png',
-        color: colors[i],
-        snapper: snapper,
-      }
-    ).addTo(map);
-    exposicionesLayers.push(exposicion);
+  render();
+
+  function render() {
+    for (var i=0; i < exposiciones.length; ++i ) {
+      var exposicion = L.createExposicionLayer(exposiciones[i],
+        {
+          initLatLng: config.initLatLng,
+          iconUrl: 'imgs/pin.png',
+          snapper: snapper,
+        }
+      ).addTo(map);
+      exposicionesLayers.addLayer(exposicion);
+    }
   }
 
   map.on('click', function(e) {
-    snapper.close();
-    for (var i=0; i < exposicionesLayers.length; ++i ) {
-      exposicionesLayers[i].clearItineranciasLayer();
-    }
-    map.setZoom(config.initZoom, {animate: true});
+    map.clearAll();
   });
 
   $(function() {
-    $('#start').click(function() {
-      for (var i=0; i<exposicionesLayers.length; ++i) {
-        exposicionesLayers[i].renderItinerancias();
-      }
+    $('#expo2011').click(function() {
+      map.clearAll();
+      render();
+      exposicionesLayers.eachLayer(function (layer) {
+        layer.resaltarIconosAnio(2011);
+      });
     });
+
+    $('#expo2012').click(function() {
+      map.clearAll();
+      render();
+      exposicionesLayers.eachLayer(function (layer) {
+        layer.resaltarIconosAnio(2012);
+      });
+    });
+
+    $('#expoTodas').click(function() {
+      map.clearAll();
+      render();
+
+    });
+
     $('#cerrar').click(function() {
       snapper.close();
     });
