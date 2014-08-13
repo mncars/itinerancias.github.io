@@ -28,6 +28,7 @@
   new L.Control.Zoom({ position: 'topright' }).addTo(map);
   map.addLayer(new L.TileLayer(config.tileUrl, {attribution: config.tileAttrib}));
   map.setView(config.mapCenter, config.initZoom);
+  $('#Container').mixItUp();
 
   render();
 

@@ -11,16 +11,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
      <link rel="icon" type="image/png" href="favicon.ico">
 
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="leaflet-0.7.3/leaflet.css" />
     <link rel="stylesheet" type="text/css" href="css/snap.css" />
     <link rel="stylesheet" type="text/css" href="http://www.museoreinasofia.es/sites/all/themes/mrs_twitter_bootstrap/css/MyFontsWebfontsKit.css" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script type='text/javascript' src='markers2.json'></script>
 
-    <!-- make legacy Internet Explorer play nice(r) -->
     <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+        <script src="js/vendor/html5-3.6-respond-1.1.0.min.js"></script>
     <![endif]-->
   </head>
   <body>
@@ -35,16 +36,35 @@
         <a href="http://www.museoreinasofia.es"><h1>Museo Reina Sofía</h1></a>
       </header>
       <div id="map"></div>
-      <button id="expo2011">2011</button>
-      <button id="expo2012">2012</button>
-      <button id="expoTodas">Todas</button>
+      <footer>
+        <div class="controls">
+          <label>Filter:</label>
+          <button class="filter" data-filter="all">All</button>
+          <button class="filter" data-filter=".y2011">2011</button>
+          <button class="filter" data-filter=".y2012">2012</button>
+        </div>
+        <div id="Container" class="container">
+          <div class="mix y2011" data-myorder="1"></div>
+          <div class="mix y2011" data-myorder="2"></div>
+          <div class="mix y2011" data-myorder="3"></div>
+          <div class="mix y2011" data-myorder="4"></div>
+          <div class="mix y2012" data-myorder="5"></div>
+          <div class="mix y2012" data-myorder="6"></div>
+          <div class="mix y2012" data-myorder="7"></div>
+          <div class="mix y2012" data-myorder="8"></div>
+
+          <div class="gap"></div>
+          <div class="gap"></div>
+        </div>
+      </footer>
     </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="leaflet-0.7.3/leaflet.js"></script>
     <script src="js/Exposicion.js"></script>
-    <script type='text/javascript' src='markers2.json'></script>
-    <script src="js/snap.min.js"></script>
+    <script src="js/vendor/jquery.mixitup.min.js"></script>
+    <script src="js/vendor/snap.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
